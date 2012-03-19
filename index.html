@@ -14,7 +14,6 @@
  
   <style>
 
-
     body{
       height: 100%;
       width: 100%;
@@ -28,12 +27,29 @@
     #content{
       width:100%;
       position:relative;
-      
+
     }
     #header{
       position:absolute;
       top:20px;
-      left:307px;
+      font-size:30px;
+      font-weight:bold;
+      width: 100%;
+      left: 0px;
+      text-align: center; 
+      text-transform:uppercase;
+
+    }
+
+    #footer{
+      position:absolute;
+      top: 880px;
+      font-size:30px;
+      font-weight:bold;
+      width: 100%;
+      left: 0px;
+      text-align: center; 
+      text-transform:uppercase;
 
     }
     .button{
@@ -46,54 +62,54 @@
       z-index: 1;
     }
     #planets_outer_slow{
-      background-image: url("/images/outer_planets_top.png");
-      width: 748px;
+      background-image: url("/images/smooth_images/outer_top.png");
+      width: 747px;
       height: 374px;
       position: absolute;
       top:100px;
-      left:10px;
+      left:3px;
 
     }
     #planets_outer_slow.selected{
-      background-image: url("/images/outer_planets_top_orange.png");
+      background-image: url("/images/smooth_images/outer_top_selected.png");
     }
 
     #planets_inner_slow{
-      background-image: url("/images/inner_planets_top2.png");
+      background-image: url("/images/smooth_images/inner_top.png");
       width: 364px;
-      height: 184px;
+      height: 182px;
       position:absolute;
       top:292px;
-      left:200px;
+      left:193px;
     }
     #planets_inner_slow.selected{
-      background-image: url("/images/inner_planets_top_orange.png");
+      background-image: url("/images/smooth_images/inner_top_selected.png");
     }
     #planets_inner_fast{  
-      background-image: url("/images/inner_planets_lower2.png");
+      background-image: url("/images/smooth_images/inner_low.png");
       width: 364px;
-      height: 184px;
+      height: 182px;
       position:absolute;
-      top:500px;
-      left:200px;
+      top: 487px;
+      left:193px;
     }
     #planets_inner_fast.selected{
-      background-image: url("/images/inner_planets_lower_orange.png");
+      background-image: url("/images/smooth_images/inner_low_selected.png");
 
     }
 
     #planets_outer_fast{
-      background-image: url("/images/outer_planets_lower.png");
-      width: 748px;
+      background-image: url("/images/smooth_images/outer_low.png");
+      width: 747px;
       height: 374px;
       position: absolute;
-      top: 498px;
-      left:10px;
+      top: 487px;
+      left:3px;
 
     }
 
     #planets_outer_fast.selected{
-      background-image: url("/images/outer_planets_lower_orange2.png");
+      background-image: url("/images/smooth_images/outer_low_selected.png");
 
     }
 
@@ -115,16 +131,17 @@
   <div id='top_bar'>Our Solar System</div>
 
   <div id='content'>
-  <div id='header'>Current Planetary Positions</div>
-    <div id='controls'>
-      <div id='planets_outer_slow' class='outer slow button'></div>
-      <div id='planets_inner_slow' class='inner slow button selected'></div>
-      <div id='planets_inner_fast' class='inner fast button'></div>
-      <div id='planets_outer_fast' class='outer fast button'></div>
-    </div>
+    <div id='header'>Current Planetary Positions</div>
+      <div id='controls'>
+        <div id='planets_outer_slow' class='outer slow button'></div>
+        <div id='planets_inner_slow' class='inner slow button selected'></div>
+        <div id='planets_inner_fast' class='inner fast button'></div>
+        <div id='planets_outer_fast' class='outer fast button'></div>
+      </div>
+    <div id='footer'>Speed Up Time</div>
   </div>
 
-  <a id='start_server' href='#'>Start Server</a>
+
 </body>
 
 
