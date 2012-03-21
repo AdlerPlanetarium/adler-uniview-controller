@@ -1,1 +1,1 @@
-web: ace ./ 
+web: serveup ./

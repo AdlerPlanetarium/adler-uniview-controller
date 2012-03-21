@@ -1,11 +1,7 @@
 {
-  "name": "myapp",
+  "name": "app",
   "version": "0.0.1",
-   "dependencies": { 
-    "ace": "latest"
-  },
-  "engines": {
-    "node": "0.6.x",
-    "npm":  "1.0.x"
+  "dependencies": { 
+    "serveup": "~0.0.2" 
   }
 }
