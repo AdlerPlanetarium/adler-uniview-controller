@@ -6,6 +6,10 @@
                            "Venus.prop.LabelEnabled false",
                            "Earth.prop.LabelEnabled false",
                            "Mars.prop.LabelEnabled false",
+                           "Jupiter.prop.LabelEnabled true",
+                           "Saturn.prop.LabelEnabled true",
+                           "Neptune.prop.LabelEnabled true",
+                           "Uranus.prop.LabelEnabled true",
                            "System.setsimulatedtimevelocity 1"
 
                           ],
@@ -15,6 +19,10 @@
                            "Venus.prop.LabelEnabled true",
                            "Earth.prop.LabelEnabled true",
                            "Mars.prop.LabelEnabled true",
+                           "Jupiter.prop.LabelEnabled false",
+                           "Saturn.prop.LabelEnabled false",
+                           "Neptune.prop.LabelEnabled false",
+                           "Uranus.prop.LabelEnabled false",
                            "System.setsimulatedtimevelocity 1"
 
                           ],
@@ -25,6 +33,10 @@
                            "Venus.prop.LabelEnabled true",
                            "Earth.prop.LabelEnabled true",
                            "Mars.prop.LabelEnabled true",
+                           "Jupiter.prop.LabelEnabled false",
+                           "Saturn.prop.LabelEnabled false",
+                           "Neptune.prop.LabelEnabled false",
+                           "Uranus.prop.LabelEnabled false",
                            "System.setsimulatedtimevelocity 1033200"
                           ],
       planets_outer_fast: ["Camera.transitionspeed fast",
@@ -33,6 +45,21 @@
                            "Venus.prop.LabelEnabled false",
                            "Earth.prop.LabelEnabled false",
                            "Mars.prop.LabelEnabled false",
+                           "Jupiter.prop.LabelEnabled true",
+                           "Saturn.prop.LabelEnabled true",
+                           "Neptune.prop.LabelEnabled true",
+                           "Uranus.prop.LabelEnabled true",
                            "System.setsimulatedtimevelocity 31536000"
-                          ]
+                          ],
+      mercury : ["Camera.flyto Mercury"],
+      venus : ["Camera.flyto Venus"],
+      earth : ["Camera.flyto Earth"],     
+      Mars : ["Camera.flyto Mars"],                      
+      jupiter : [ "Camera.flyto Jupiter"],
+      saturn : [ "Camera.flyto Saturn"],
+      uranus : [ "Camera.flyto Uranus"],
+      neptune : [ "Camera.flyto Neptune"],
+
+
+
     }
