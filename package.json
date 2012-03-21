@@ -2,6 +2,7 @@
   "name": "app",
   "version": "0.0.1",
   "dependencies": { 
-    "ace" : "0.0.2"
-  }
+    "ace": "latest"
+  },
+  "engine": "node 0.4.1"
 }
