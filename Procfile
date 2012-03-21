@@ -1,1 +1,1 @@
-web: ace ./
+web: ace ./public 
