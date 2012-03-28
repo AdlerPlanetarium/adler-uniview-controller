@@ -8,7 +8,7 @@ $(document).ready(function(){
   });
 
   //Open websocket
-  ws = new WebSocket("ws://192.168.30.151:8183");
+  ws = new WebSocket("ws://192.168.50.81:8183");
   
   ws.onopen= function(){
     
@@ -24,7 +24,7 @@ $(document).ready(function(){
   };
 
   ws.onclose= function(){
-     ws = new WebSocket("ws://192.168.30.200:8183");
+     ws = new WebSocket("ws://192.168.50.81:8183");
   };
 
   $(".button").on("touchstart", function(event){
